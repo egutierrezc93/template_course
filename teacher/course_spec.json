@@ -1,0 +1,32 @@
+{
+    "aggregate_labs_code": "wmean",
+    "course_description": "Test Course",
+    "course_id": "20201.test",
+    "labs": [
+        {
+            "lab_id": "lab_01",
+            "name": "Arrays Practice",
+            "start_week": 2,
+            "weeks_duration": 40,
+            "weight": 0.5,
+            "tasks": [
+                {
+                    "name": "Array Max and Min",
+                    "task_id": "task_00",
+                    "weight": 0.1
+                },
+                {
+                    "name": "Array Mean and St Dev",
+                    "task_id": "task_01",
+                    "weight": 0.4
+                },
+                {
+                    "name": "Array Sort",
+                    "task_id": "task_02",
+                    "weight": 0.5
+                }
+             ]
+        }
+
+    ]
+}
