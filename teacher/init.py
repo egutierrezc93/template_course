@@ -1,8 +1,8 @@
-course_id = '20201.test'
-github_repo = 'rramosp/%s'%course_id
+course_id = 'XXXXXXXX'
+github_repo = 'XXXXXX/%s'%course_id
 zip_file_url="https://github.com/%s/archive/master.zip"%github_repo
-endpoint = 'https://m3g87w9l3k.execute-api.us-west-2.amazonaws.com/dev/rlxmooc'
-#endpoint = 'http://localhost:5000/rlxmooc'
+endpoint = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
 
 def get_last_modif_date(localdir):
     try:
