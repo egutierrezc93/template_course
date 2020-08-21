@@ -39,14 +39,13 @@ def get_weblink():
     return HTML("<h3>See <a href='"+endpoint+"/web/login' target='_blank'>my courses and progress</a></h2>")
 
 def install_sourcedefender():
-    print('Installing sourcedefender...')
+    print('Enabling encryption...')
     output = subprocess.run(['pip', 'install', 'sourcedefender'], stderr=subprocess.PIPE)
 
     if output.returncode != 0:
         STDOUT_RED_COLOR = '\033[91m'
         STDOUT_RESET_COLOR = '\033[0m'
-        print('Sourcedefender installation failed, returning')
+        print('Encrypter installation failed, returning')
         print(STDOUT_RED_COLOR + output.stderr.decode('ASCII') + STDOUT_RESET_COLOR)
     else:
-       print('Successfully installed')
-
+        print('Encryption enabled')
