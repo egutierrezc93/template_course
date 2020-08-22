@@ -1,8 +1,7 @@
 course_id = 'XXXXXXXX'
 github_repo = 'XXXXXX/%s'%course_id
 zip_file_url="https://github.com/%s/archive/master.zip"%github_repo
-endpoint = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-
+endpoint = 'https://m5knaekxo6.execute-api.us-west-2.amazonaws.com/dev-v0001/rlxmooc/'
 
 def get_last_modif_date(localdir):
     try:

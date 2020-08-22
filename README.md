@@ -5,7 +5,10 @@ This repository is a template course for the RLXMOOC grading platform.
 ## How to use it?
 ### 1. Create an empty github repository for your course
 This empty repository is going to contain all the laboratories 
-and classes of the course in jupyter notebooks
+and classes of the course in jupyter notebooks.
+
+It is important to know that the name of this repo will be
+the `course id` of your course for the RLXMOOC platform.
 
 ### 2. Clone this repository in your computer
 You can clone this repository with a
@@ -22,11 +25,14 @@ to set
 * The course id
     * In the `course_id` variable you have to set your
     personalized course id
-    * **For example**  20201.test
+        * **Notice that** this course_id have to be
+        the same as the repository name of the first
+        step
+        * **For example**  20201.test
 * Your repository name
     * In the `github_repo` variable you have to set the 
-    `github_username/repo_name` data
-    * **For example** `egutierrezc93/20201.test`
+    `github_username` data
+    * **For example** `egutierrezc93`
 * The RLXMOOC grader platform endpoint url
     * In the `endpoint` variable you have to set the
     endpoint url that the RLXMOOC administrator give 
@@ -67,7 +73,7 @@ cell is the one that set the grader in the RLXMOOC platform.
 This cell and its output will be deleted for the student version of the
 notebook
 * **\## KEEPOUTPUT:** this label indicates that the cell content
-will be deleted but the output of the cell will remain in the
+and the output of the cell will remain in the
 student version of the notebook
 
 ### 6. Deploy your course
